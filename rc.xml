@@ -370,6 +370,24 @@
         <command>flatpak run one.ablaze.floorp</command>
       </action>
     </keybind>
+    <keybind key="W-B">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>floorp</name>
+        </startupnotify>
+        <command>flatpak run one.ablaze.floorp</command>
+      </action>
+    </keybind>
+    <keybind key="W-V">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>volume</name>
+        </startupnotify>
+        <command>pavucontrol</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
