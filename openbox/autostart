@@ -1,0 +1,4 @@
+lxpanel &
+nitrogen --restore &
+xcompmgr -c &
+
